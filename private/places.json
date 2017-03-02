@@ -1,0 +1,2231 @@
+[
+    {
+        "Name" : "Chicas Indicadas con Sitio Privado",
+        "Phones" : [
+            "3007793581"
+        ],
+        "Address" : "Trsv. 3 Calle 55",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6397878, -74.06007707]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "11:00",
+                "EndHour" : "22:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 60,
+                "Price" : 120000
+            }
+        ],
+        "Notes" : "Niñas de 18 a 22 años",
+        "Confirmed" : true
+    },
+    {
+        "Name" : "Veteranas Bogotá",
+        "Phones" : [
+            "3213887959"
+        ],
+        "Address" : "Kra. 20A Bis # 74-32 piso 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6626417, -74.0623154]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:30",
+                "EndHour" : "19:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 30,
+                "Price" : 50000
+            },
+            {
+                "Minutes" : 45,
+                "Price" : 100000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 120000
+            }
+        ],
+        "Notes" : "Señoras de 30 a 45 años",
+        "Confirmed" : true
+    },
+    {
+        "Name" : "Lindas Chicas y Más Puticas",
+        "Phones" : [
+            "3142971872"
+        ],
+        "Address" : "Kra. 19 # 54-09",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6430997, -74.0702375]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "20:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 30,
+                "Price" : 80000,
+                "NotIncluded" : ["Regular"],
+                "Additional" : ["Waxing", "Natural Oral"]
+            }
+        ],
+        "Notes" : "Preguntar por Lina o por Tatiana para la depilación",
+        "Confirmed" : true
+    },
+    {
+        "Name" : "Masajes Eróticos Relax",
+        "Phones" : [
+            "3105525203"
+        ],
+        "Address" : "Calle 140 # 13-36",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.7209766, -74.0403999]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "21:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 30,
+                "Price" : 50000
+            },
+            {
+                "Minutes" : 45,
+                "Price" : 170000,
+                "Additional" : ["Threesome"]
+            }
+        ],
+        "Notes" : "Chicas de 18 a 28 años",
+        "Confirmed" : true
+    },
+    {
+        "Name" : "8 Cukitas Super Calientes",
+        "Phones" : [
+            "3115757380"
+        ],
+        "Address" : "Trsv. 107A # 16H-75",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.67622022, -74.15115416]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "20:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 20,
+                "Price" : 60000
+            },
+            {
+                "Minutes" : 30,
+                "Price" : 80000
+            },
+            {
+                "Minutes" : 45,
+                "Price" : 100000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 130000
+            },
+            {
+                "Minutes" : 45,
+                "Price" : 150000,
+                "Additional" : ["Threesome"]
+            }
+        ],
+        "Confirmed" : true
+    },    
+    {
+        "Name" : "Chicas Independientes con Apartamento Privado",
+        "Phones" : [
+            "3133285129"
+        ],
+        "Address" : "Kra. 24 # 69-71",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6602654, -74.0689135]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "20:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 60,
+                "Price" : 120000
+            }
+        ],
+        "Confirmed" : true
+    },
+    {
+        "Name" : "Presentación con Linda Malla",
+        "Phones" : [
+            "3212367620"
+        ],
+        "Address" : "Av. 1o de Mayo, Kra. 17",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.58260641, -74.10352618]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:30",
+                "EndHour" : "19:30"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 20,
+                "Price" : 50000
+            },
+            {
+                "Minutes" : 30,
+                "Price" : 70000
+            },
+            {
+                "Minutes" : 45,
+                "Price" : 80000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 100000
+            }
+        ],
+        "Notes" : "Al llegar a la esquina, buscar # 21-28",
+        "Confirmed" : true
+    },
+    {
+        "Name" : "Ven por la Promoción",
+        "Phones" : [
+            "3138512588"
+        ],
+        "Address" : "Calle 62 # 13-31",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6489165, -74.0638854]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:30",
+                "EndHour" : "19:00"
+            }
+        ],
+        "Confirmed" : true
+    },
+    {
+        "Name" : "Lorena Casita Sitio Discreto",
+        "Phones" : [
+            "3006192474"
+        ],
+        "Address" : "Cerca a estación Marly",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.63998029, -74.06622201]
+            }
+        },
+        "Prices" : [
+            {
+                "Minutes" : 30,
+                "Price" : 50000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 70000
+            }
+        ],
+        "Notes" : "Llamar estando cerca",
+        "Confirmed" : true
+    },
+    {
+        "Name" : "Chicas con Sitio para Atenderte",
+        "Phones" : [
+            "3115484021"
+        ],
+        "Address" : "Calle 9 # 78-16",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6415749, -74.1401536]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "11:00",
+                "EndHour" : "20:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 15,
+                "Price" : 30000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 100000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 150000,
+                "Additional" : ["Threesome"]
+            }
+        ],
+        "Notes" : "Buscar masajes para la espalda en la fachada",
+        "Confirmed" : true
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Cra. 19 # 32-47 apto. 202",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6207739, -74.0742423]
+            }
+        },
+        "Notes" : "Timbrar en 202 y decir q vienes a TERAPIAS",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Teusaquillo",
+        "Address" : "Calle 33A # 21-06",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6230999, -74.0753115]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Models",
+        "Phones" : [
+            "0312872319",
+            "0312454266"
+        ],
+        "Address" : "Calle 36 #17A-44",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6252443, -74.0726047]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Pikaronas",
+        "Phones" : [
+            "0312443512"
+        ],
+        "Address" : "Av. Kra. 28 # 41-54",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6327636, -74.07926]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Galerias",
+        "Phones" : [
+            "3133470787"
+        ],
+        "Address" : "Kra. 17 # 51-54",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6394702, -74.0695664]
+            }
+        },
+        "Notes" : "3-6 chicas",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Babilon",
+        "Address" : "Av Caracas # 40A-83",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.62932931, -74.06843752]
+            }
+        },
+        "Prices" : [
+            {
+                "Minutes" : 15,
+                "Price" : 20000
+            },
+            {
+                "Minutes" : 15,
+                "Price" : 30000,
+                "Additional" : ["Threesome"]
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Whiskería Palermo",
+        "Address" : "Kra. 13 # 41-05",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.629024, -74.0669684]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Niñas del Oeste Sin Rodeo",
+        "Address" : "Kra. 13 # 48-15",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6353798, -74.065873]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Whiskería Show Linares",
+        "Address" : "Kra. 13 # 48-21",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6354404, -74.065863]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "La Mansión de la Barbie",
+        "Address" : "Calle 49 # 13-70",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6363606, -74.0665324]
+            }
+        },
+        "Prices" : [
+            {
+                "Minutes" : 15,
+                "Price" : 20000
+            },
+            {
+                "Minutes" : 30,
+                "Price" : 40000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 60000
+            }
+        ],
+        "Notes" : "6-8 chicas",
+        "Confirmed" : true
+    },
+    {
+        "Name" : "Pasarela la 49",
+        "Address" : "Calle 49 # 13-88",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6363925, -74.0667415]
+            }
+        },
+        "Confirmed" : true
+    },
+    {
+        "Name" : "Whiskería Show La 49",
+        "Address" : "Kr 13 49-77",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.636411, -74.0656]
+            }
+        },
+        "Confirmed" : true
+    },
+    {
+        "Name" : "Veteranitas",
+        "Phones" : [
+            "3208258757",
+            "0316051597"
+        ],
+        "Address" : "Calle 50 # 15-06",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6376446, -74.067918]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Tú y Yo",
+        "Phones" : [
+            "0312490564",
+            "0313481743"
+        ],
+        "Address" : "Calle 52 # 16-74",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6398725, -74.0692327]
+            }
+        },
+        "Prices" : [
+            {
+                "Minutes" : 30,
+                "Price" : 30000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 60000
+            }
+        ],
+        "Notes" : "6 chicas",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Mariana y Luna",
+        "Phones" : [
+            "0312557255",
+            "3202530621",
+            "3208316125"
+        ],
+        "Address" : "Calle 55 # 13-58",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6424532, -74.0653611]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Video Bar la 55",
+        "Address" : "Av. Caracas # 55-26",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6427167, -74.0657832]
+            }
+        }   ,
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Phones" : [
+            "0312118393"
+        ],
+        "Address" : "Kra. 15A # 56-45",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6440152, -74.0672723]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 57 # 9-75",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6439392, -74.064228]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Exclusivo bar reservado",
+        "Phones" : [
+            "0312124863"
+        ],
+        "Address" : "Calle 57 # 15-26",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6442384, -74.0670016]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Colegialas Video Bar AREM",
+        "Address" : "Kra. 9 # 57-13",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6438602, -74.0635448]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Video Bar L & C",
+        "Address" : "Calle 58 # 10-33",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6446347, -74.06469986]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 8 # 58-07",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.64385674, -74.06254873]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Magic Hands",
+        "Phones" : [
+            "3205900554",
+            "0315409336"
+        ],
+        "Address" : "Calle 59 # 13-52 int 7",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6460657, -74.064666]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Masajes 112",
+        "Phones" : [
+            "0312101953",
+            "3118145232"
+        ],
+        "Address" : "Calle 59 # 13-84 mz. 112",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6461338, -74.0649983]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Phones" : [
+            "0312100298"
+        ],
+        "Address" : "Cra. 17 # 59-62",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6473043, -74.0681183]
+            }
+        },
+        "Prices" : [
+            {
+                "Minutes" : 30,
+                "Price" : 20000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 40000
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "El Club Pasarela Show",
+        "Address" : "Calle 60 # 13-20",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6468362, -74.064131]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "15:00",
+                "EndHour" : "03:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Video XXX",
+        "Address" : "Calle 60 # 13-26",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6468507, -74.0641805]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:30",
+                "EndHour" : "02:30"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Baños Turcos (Lindas Chicas)",
+        "Phones" : [
+            "0312125740"
+        ],
+        "Address" : " Calle 60 # 14-13",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6471478, -74.0653019]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Whiskeria Jr",
+        "Phones" : [
+            ""
+        ],
+        "Address" : "Calle 60 # 14-29",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.64719, -74.0654315]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "20:00",
+                "EndHour" : "03:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 9A # 60-41",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6467572, -74.0629505]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Bar las Delicias de Lady",
+        "Address" : "Kra. 13 # 60-07",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6468653, -74.0639644]
+            }
+        },
+        "Notes" : "Cover $5.000",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Cherry Pasarela Bar",
+        "Phones" : [
+            "3142469347"
+        ],
+        "Address" : "Kra. 13A # 60-19",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6471063, -74.064546]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Sala Amazonas",
+        "Address" : "Kra. 13B # 60-48",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.647406, -74.0647279]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 60 BIS # 13-44",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6473445, -74.0642583]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Las Divas",
+        "Address" : "Calle 61 # 13-75",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.648024, -74.0645432]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "20:00",
+                "EndHour" : "02:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 30,
+                "Price" : 60000
+            }
+        ],
+        "Notes" : "15-20 chicas",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Donde Peter",
+        "Address" : "Kra. 9 # 61-48",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6472483, -74.0614327]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Avalon 2",
+        "Address" : "Kra. 13 # 61-47 l. 126",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6486168, -74.063671]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Eros Club",
+        "Address" : "Kra. 13 # 61-47 l. 204",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6486168, -74.063671]
+            }
+        },
+        "Notes" : "Aprieta TIMBRAR",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "El Tercer Piso",
+        "Address" : "Calle 61A # 13A-39",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6484482, -74.0645589]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Confidencias",
+        "Address" : "Kra. 13A # 61A-16",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6485702, -74.0642375]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Hands magic",
+        "Phones" : [
+            "3118145232",
+            "0314669432"
+        ],
+        "Address" : "Calle 62 # 13-31 of. 202",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6489165, -74.0638854]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Garotas club",
+        "Address" : "Calle 62 # 13-32",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6489165, -74.0638854]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "20:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 63 # 13-79 piso 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6495786, -74.0643182]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Bar Palmara",
+        "Address" : "Calle 63 # 16-72",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.65022475, -74.06727612]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Abejitas La 63",
+        "Phones" : [
+            "0315475083", 
+            "0318018117", 
+            "3168009700"
+        ],
+        "Address" : "Calle 63 # 16A-42",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.65018198, -74.06731099]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Solid Gold",
+        "Address" : "Av. Caracas # 63-68 l. 1",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6508577, -74.0645034]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Aventuras en Pañales (La Huevera)",
+        "Address" : "Av. Caracas # 63-72",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6509296, -74.0644895]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 15 # 63-26",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6500901, -74.0656539]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5, 6
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "20:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Phones" : [
+            "0316062620"
+        ],
+        "Address" : "Calle 64 # 13-35 apto. 201",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6509603, -74.0636138]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Nuevo Pasarela",
+        "Address" : "Calle 64 # 13-71",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6511602, -74.0639346]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "03:00"
+            }
+        ],
+        "Notes" : "la puerta es 13-73",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Salome",
+        "Phones" : [
+            "0313492183"
+        ],
+        "Address" : "Calle 64 # 13-88 p. 3",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6512613, -74.0640968]
+            }
+        },
+        "Prices" : [
+            {
+                "Minutes" : 20,
+                "Price" : 50000,
+                "Additional" : ["Threesome"]
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 60000
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Club Las Diosas Shows",
+        "Address" : "Cll 64 # 14-34",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6516334, -74.06471]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Club Reservado Bar",
+        "Address" : "Calle 64 # 14-89 p. 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6519123, -74.0652176]
+            }
+        },
+        "Prices" : [
+            {
+                "Minutes" : 20,
+                "Price" : 20000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 60000
+            }
+        ],
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "21:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 64 # 15-18",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6520588, -74.0654253]
+            }
+        },
+        "Notes" : "Pregúntale al viejo de adelante por la puerta sin número",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 64 # 15-30",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6521105, -74.0655105]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Sexy Mor",
+        "Address" : "Kra. 13 # 64-16 l. 123",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6509339, -74.0632739]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 13 # 64-16 l. 142",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6509339, -74.0632739]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Centro Terapias Corina",
+        "Address" : "Kra. 13 # 64-16 l. 223",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6509339, -74.0632739]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Avalon",
+        "Address" : "Kra. 13 # 64-67 l. 210,213,204,215",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6515214, -74.0631776]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Gatitas(Reservado el Eden)",
+        "Phones" : [
+            "0314812653", 
+            "0312485232"
+        ],  
+        "Address" : "Av. Caracas # 64-36",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.651604, -74.0641526]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Fira Blue",
+        "Address" : "Kra. 13 No 65-29",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6518969, -74.06312]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "La Mansion del Placer",
+        "Address" : "Kra. 16 # 65-23",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6533212, -74.0661391]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "La 65",
+        "Address" : "Kra. 17 # 65-05",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6535774, -74.0669944]
+            }
+        },
+        "Prices" : [
+            {
+                "Minutes" : 20,
+                "Price" : 20000
+            },
+            {
+                "Minutes" : 30,
+                "Price" : 30000
+            }
+        ],
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "20:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Chicas Siglo XXI",
+        "Address" : "Calle 66 # 13-41",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6527874, -74.0633416]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Danubio Azul",
+        "Phones" : [
+            "3142113045"
+        ],
+        "Address" : "Calle 66 # 15-05",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6536667, -74.0650452]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Bar Las Golosas",
+        "Address" : "Calle 66 # 17-06 p. 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6545679, -74.0668631]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Las Muñecas",
+        "Phones" : [
+            "0312491181"
+        ],
+        "Address" : "Av. Caracas # 66-09, p. 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6532165, -74.0639924]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "21:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Lindas Universitarias",
+        "Phones" : [
+            "0312355502"
+        ],
+        "Address" : "Av. Caracas # 66-67",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6538, -74.0637244]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "21:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 15 # 66-17",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6537817, -74.0649795]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "21:00"
+            }
+        ],
+        "Notes" : "4-5 chicas",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 15 # 66-22",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6538142, -74.0649734]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "21:00"
+            }
+        ],
+        "Notes" : "4 chicas",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Coquetas",
+        "Address" : "Kra. 17 # 66-28",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6547396, -74.0667129]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 17 # 66-31",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.654769, -74.0666972]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "03:00"
+            }
+        ],
+        "Notes" : "2-3 chicas en el día, 6-8 chicas por la noche, después de las 8-9pm. Horario: Hasta 2-3am",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Bar Las Divas De Javier",
+        "Phones" : [
+            "3103433398"
+        ],
+        "Address" : "Kra. 17 # 66-32",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.654769, -74.0666972]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5, 6
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "03:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 17 # 66-41",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6548422, -74.066657]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5, 6
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "03:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 17 # 66-52",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6549133, -74.0666131]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5, 6
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "02:00"
+            }
+        ],
+        "Notes" : "2-3 chicas en el día, 6-8 chicas por la noche, después de las 8-9pm",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Bar Reservado Azucena",
+        "Address" : "Kra. 11 No. 67-26",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6529295, -74.0613382]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Cielo Azul",
+        "Address" : "Calle 67 # 11-33 p. 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6529063, -74.061692]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Fantasias",
+        "Phones" : [
+            "0312494279"
+        ],
+        "Address" : "Calle 67 # 16-05",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6554191, -74.0656092]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "19:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Chiquitas Club",
+        "Phones" : [
+            "0316062993"
+        ],
+        "Address" : "Calle 67 # 16-25",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6555231, -74.0657394]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "21:00"
+            }
+        ],
+        "Notes" : "4 chicas",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Tantra Spa 67",
+        "Phones" : [
+            "0312124508", 
+            "0313102652"
+        ],
+        "Address" : "Kra. 15 # 67-24",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.655118, -74.0647439]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "21:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 25,
+                "Price" : 25000
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Julianas #1",
+        "Address" : "Kra. 19 # 67-47",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6565874, -74.0667136]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "21:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 30,
+                "Price" : 30000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 60000
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 19 # 67-50",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6566011, -74.0667047]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "21:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 20,
+                "Price" : 20000
+            },
+            {
+                "Minutes" : 30,
+                "Price" : 30000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 60000
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 19 # 67-93 l. 201",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.656265, -74.0669209]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "20:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Samsara club del placer",
+        "Address" : "Kra. 21 # 67-20",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6572885, -74.0682448]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Piel Canela Diversión Para Adultos",
+        "Address" : "Kra. 23 # 67-32",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6581217, -74.0692799]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Reservado",
+        "Address" : "Dg. 68 # 12-24",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6544016, -74.0620882]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Club Las Vegas",
+        "Address" : "Calle 68 # 17-77 l. 1",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6567753, -74.066325]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Video XXX",
+        "Phones" : [
+            "3102697978"
+        ],
+        "Address" : "Calle 68 # 21-10 l. 202",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6578174, -74.0679839]
+            }
+        },
+        "Prices" : [
+            {
+                "Minutes" : 60,
+                "Price" : 12000,
+                "NotIncluded" : ["Regular", "Oral"],
+                "Additional" : ["Movie"]
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 12000,
+                "NotIncluded" : ["Regular"],
+                "Additional" : ["Movie"]
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Masaje Relax",
+        "Phones" : [
+            "0313033922"
+        ],
+        "Address" : "Calle 68 # 21-10 l. 204",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6578174, -74.0679839]
+            }
+        },
+        "Prices" : [
+            {
+                "Minutes" : 30,
+                "Price" : 80000,
+                "NotIncluded" : ["Regular", "Oral"],
+                "Additional" : ["Massage", "Threesome"]
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 100000,
+                "NotIncluded" : ["Regular", "Oral"],
+                "Additional" : ["Massage", "Threesome"]
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Johana Reservado",
+        "Address" : "Kra. 13 # 68-14",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6542883, -74.0626767]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "T-girls",
+        "Phones" : [
+            "3105281274"
+        ],
+        "Address" : "Kra. 13 # 68-60 apto. 202",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6549298, -74.0625707]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Centro de Acondicionamiento",
+        "Address" : "Calle 70 # 13-30",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.656381, -74.0620283]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 70A # 14-30 p. 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6573184, -74.062599]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Chicas Milenio",
+        "Phones" : [
+            "0312492927", 
+            "0313125074"
+        ],
+        "Address" : "Calle 71 # 14A-20",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6585284, -74.0629688]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "03:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 30,
+                "Price" : 30000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 50000
+            }
+        ],
+        "Notes" : "30 chicas en turno",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Chicas 2000 / Las Profesionales",
+        "Address" : "Calle 71 # 14A-27",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6585427, -74.0630334]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "21:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 20,
+                "Price" : 22000
+            },
+            {
+                "Minutes" : 30,
+                "Price" : 32000
+            },
+            {
+                "Minutes" : 60,
+                "Price" : 54000
+            }
+        ],
+        "Notes" : "6 chicas",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Casa de Chicas",
+        "Address" : "Calle 72 #15-60",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.65939171, -74.06166427]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 73 # 15-10 of. 201",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6603158, -74.0609173]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Kukylandia",
+        "Address" : "Av. Caracas # 73-28, p. 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.66093958, -74.06138331]
+            }
+        },
+        "Prices" : [
+            {
+                "Minutes" : 20,
+                "Price" : 30000
+            }
+        ],
+        "Notes" : "8-30 chicas",
+        "Confirmed" : true
+    },
+    {
+        "Name" : "OZ 74",
+        "Phones" : [
+            "0312173438"
+        ],
+        "Address" : "Calle 74 # 16-79",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6616293, -74.06102657]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "15:00",
+                "EndHour" : "02:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Penthouse Club",
+        "Address" : "Calle 76 # 15-34",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6629825, -74.0593465]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 76 # 15-36",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6629912, -74.0593601]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 86A # 14-49",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6708086, -74.0543486]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 86A # 14-57",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.670844, -74.0544208]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Phones" : [
+            "3144328432"
+        ],
+        "Address" : "Calle 69 bis # 14-52 p. 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6562065, -74.0629742]
+            }
+        },
+        "Notes" : "3 chicas",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Reservado veteranas",
+        "Phones" : [
+            "3126105596",
+            "3107727120"
+        ],
+        "Address" : "Kra. 24 # 70-31 apto. 202",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.660532, -74.0687496]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "19:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Studio Model",
+        "Phones" : [
+            "3107854329",
+            "3102957750"
+        ],
+        "Address" : "Kra. 17 # 70A-80",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6588571, -74.0641248]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Abejitas House",
+        "Phones" : [
+            "3214456039"
+        ],
+        "Address" : "Kra. 20 # 71-52 p. 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6603301, -74.0653278]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "22:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Casa de chicas",
+        "Phones" : [
+            "0316302862", 
+            "3012533659", 
+            "3203320723", 
+            "3185069685",
+            "3017231366"
+        ],
+        "Address" : "Kra. 28A # 71-43",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.664089, -74.0716315]
+            }
+        },
+        "Notes" : "15 chicas",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Angelicales",
+        "Phones" : [
+            "0312508567", 
+            "0316305664"
+        ],
+        "Address" : "Kra. 26 # 71B-61",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6634696, -74.0681741]
+            }
+        },
+        "Confirmed" : false
+    }
+]
