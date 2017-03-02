@@ -124,7 +124,10 @@ this.mapsHelpers = {
 }
 
 Meteor.startup(function() {
-  GoogleMaps.load();
+  GoogleMaps.load({
+    v : '3',
+    key : 'AIzaSyCD75m_UjRrRBpFbDNcW6N3lLx6P316O1U'
+  });
 });
 
 Template.body.helpers({
