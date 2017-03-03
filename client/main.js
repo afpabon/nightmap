@@ -36,7 +36,9 @@ this.mapsHelpers = {
     
     self.icons.push(pinImage);
 
-    self.clusterer = new MarkerClusterer(GoogleMaps.maps.placesMap.instance);
+    self.clusterer = new MarkerClusterer(GoogleMaps.maps.placesMap.instance, [], {
+      maxZoom : 18
+    });
   },
 
   setCurrentZone : function () {
