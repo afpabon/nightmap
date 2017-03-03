@@ -39,6 +39,20 @@ this.mapsHelpers = {
     self.clusterer = new MarkerClusterer(GoogleMaps.maps.placesMap.instance);
   },
 
+  setCurrentZone : function () {
+    if (navigator && navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(function(location) {
+        if (location && location.coords) {
+          GoogleMaps.maps.placesMap.instance.setCenter({
+            lat: location.coords.latitude, 
+            lng: location.coords.longitude
+          });
+          GoogleMaps.maps.placesMap.instance.setZoom(16);
+        }
+      });
+    }
+  },
+
   updateInfoWindow : function (data) {
     var self = this;
 
@@ -157,6 +171,7 @@ Template.body.helpers({
         for(var i in ts){
           mapsHelpers.createMarker(bounds, map, ts[i]);
         }
+        mapsHelpers.setCurrentZone();
       });
       return {
         zoom: 12,
