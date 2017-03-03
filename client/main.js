@@ -4,11 +4,12 @@ import { ReactiveVar } from 'meteor/reactive-var';
 import './main.html';
 
 this.mapsHelpers = {
+  clusterer : null,
   infowindow : null,
   icons : [],
   days : ['Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa', 'Do'],
 
-  initializeIcons : function () {
+  initialize : function () {
     var self = this;
 
     var pinColor = "73a9fa";
@@ -34,6 +35,8 @@ this.mapsHelpers = {
       new google.maps.Point(10, 34));
     
     self.icons.push(pinImage);
+
+    self.clusterer = new MarkerClusterer(GoogleMaps.maps.placesMap.instance);
   },
 
   updateInfoWindow : function (data) {
@@ -94,6 +97,8 @@ this.mapsHelpers = {
       self.updateInfoWindow(item);
       self.infowindow.open(map, marker);
     });
+
+    self.clusterer.addMarker(marker);
   },
 
   getPinIndex : function (item) {
@@ -128,6 +133,7 @@ Meteor.startup(function() {
     v : '3',
     key : 'AIzaSyCD75m_UjRrRBpFbDNcW6N3lLx6P316O1U'
   });
+  GoogleMaps.loadUtilityLibrary('/scripts/markerclusterer.js');
 });
 
 Template.body.helpers({
@@ -140,7 +146,7 @@ Template.body.helpers({
         mapsHelpers.infowindow = new google.maps.InfoWindow({
           content: ''
         });
-        mapsHelpers.initializeIcons();
+        mapsHelpers.initialize();
         var ts;
         if(!this.collection)
           ts = Places.find();
