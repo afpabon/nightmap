@@ -133,6 +133,7 @@ Meteor.startup(function() {
     v : '3',
     key : 'AIzaSyCD75m_UjRrRBpFbDNcW6N3lLx6P316O1U'
   });
+  GoogleMaps.loadUtilityLibrary('/scripts/markerclusterer.js');
 });
 
 Template.body.helpers({
