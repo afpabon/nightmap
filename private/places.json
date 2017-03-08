@@ -350,7 +350,7 @@
     },
     {
         "Name" : "Desconocido",
-        "Address" : "Cra. 19 # 32-47 apto. 202",
+        "Address" : "Kra. 19 # 32-47 apto. 202",
         "Gps" : {
             "type": "Feature",
             "geometry": {
@@ -717,7 +717,7 @@
         "Phones" : [
             "0312100298"
         ],
-        "Address" : "Cra. 17 # 59-62",
+        "Address" : "Kra. 17 # 59-62",
         "Gps" : {
             "type": "Feature",
             "geometry": {
@@ -1155,7 +1155,16 @@
                 "Price" : 60000
             }
         ],
-        "Confirmed" : false
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "10:00",
+                "EndHour" : "23:00"
+            }
+        ],
+        "Confirmed" : true
     },
     {
         "Name" : "Club Las Diosas Shows",
@@ -2224,6 +2233,308 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [4.6634696, -74.0681741]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Arco Iris Show",
+        "Phones" : [
+            "0317784736"
+        ],
+        "Address" : "Kra. 8A # 2A-03",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.5833771, -74.0701135]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 15 # 9-20",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6028594, -74.0753188]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Nameless",
+        "Address" : "Kra. 10 # 15-13",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6034579, -74.0759849]
+            }
+        },
+        "Notes" : "la dirección es estimada. Ignora al tipo de la entrada.. simplemente entra. Su información puede ser no muy exacta. Tuve una fulana por 50,000 la hora",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 16 # 8-88 p. 3 l. 303",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.60362086, -74.07435715]
+            }
+        },
+        "Notes" : "Abierto todos los días. Domingos y Festivos, Frente a la Cámara de Comercio.",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 16 # 9-23 l. 212",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.60538541, -74.07672286]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 9 # 16-62",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.604305, -74.0742727]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Video Pink",
+        "Address" : "Kra. 9 # 17-54 l. 302",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6051207, -74.0737871]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 9 # 17-62 p. 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6051876, -74.073746]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Blue Star",
+        "Address" : "Kra. 10 # 18-61 p. 3 l. 203",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6065921, -74.0741201]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 19 # 8-92 p. 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6063788, -74.0730222]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Casa Show Internacional",
+        "Address" : "Kra. 8 # 19-31",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6060953, -74.0720902]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Video",
+        "Address" : "Kra. 10 # 19-37",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6073157, -74.0737086]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Tanga show",
+        "Phones" : [
+            "3114144481"
+        ],
+        "Address" : "Kra. 10 # 19-38",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6071989, -74.0735311]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "08:00",
+                "EndHour" : "03:00"
+            }
+        ],
+        "Notes" : "20 chicas",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Billar Tanga Pasarela Show",
+        "Address" : "Kra. 13 # 19-16 p. 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6081716, -74.0751667]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Phones" : [
+            "0312860348"
+        ],
+        "Address" : "Calle 20 # 8-43 p. 2",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6070027, -74.0721297]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Calle 21 # 9-35 p. 4",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6080918, -74.0725491]
+            }
+        },
+        "Notes" : "Entrada por el parking",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 10 # 22-24",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6093202, -74.0725263]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Phones" : [
+            "0313346759"
+        ],
+        "Address" : "Calle 23 # 5-96",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6084999, -74.0694218]
+            }
+        },
+        "Notes" : "Entrada por la cafetería",
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Fantasias Centro",
+        "Address" : "Calle 23 # 6-61",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6088891, -74.0700447]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Phones" : [
+            "0313419882"
+        ],
+        "Address" : "Kra. 9 # 23-70 p. 2-3",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6101558, -74.071028]
+            }
+        },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5, 6
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "22:00"
+            }
+        ],
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Desconocido",
+        "Address" : "Kra. 9 # 23-87",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6103012, -74.0709455]
+            }
+        },
+        "Confirmed" : false
+    },
+    {
+        "Name" : "Zeus",
+        "Address" : "Calle 24 # 7-38",
+        "Gps" : {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.6101708, -74.0704569]
             }
         },
         "Confirmed" : false

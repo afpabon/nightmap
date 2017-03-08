@@ -132,7 +132,11 @@ this.mapsHelpers = {
             var startMinute = parseInt(workingHour.StartHour.split(':')[1]);
             var endHour = parseInt(workingHour.EndHour.split(':')[0]);
             var endMinute = parseInt(workingHour.EndHour.split(':')[1]);
-            open = hour >= startHour && hour <= endHour; // TODO: include minutes
+            if ((hour > startHour) || (hour == startHour && minute >= startMinute)) {
+              if ((endHour < startHour) || (endHour > startHour && hour < endHour) || (endHour > startHour && hour == endHour && minute <= endMinute)) {
+                open = true;
+              }
+            }
           }
         }
       }
