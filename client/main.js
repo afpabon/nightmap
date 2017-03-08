@@ -167,28 +167,19 @@ Template.body.helpers({
           content: ''
         });
         mapsHelpers.initialize();
-        var ts;
-        if(!this.collection)
-          ts = Places.find();
-        else
-          ts =  this.collection;
-        ts = ts.fetch();
-        var bounds = new google.maps.LatLngBounds();
-        for(var i in ts){
-          mapsHelpers.createMarker(bounds, map, ts[i]);
-        }
-        mapsHelpers.setCurrentZone();
+        Meteor.subscribe('places', function () {
+          var ts = Places.find().fetch();
+          var bounds = new google.maps.LatLngBounds();
+          for(var i in ts){
+            mapsHelpers.createMarker(bounds, map, ts[i]);
+          }
+          mapsHelpers.setCurrentZone();
+        });
       });
       return {
         zoom: 12,
         center: new google.maps.LatLng(4.656397497516567, -74.06990909576417),
       };
     }
-  }
-});
-
-Template.body.helpers({
-  getPlaces : function () {
-    return Places.find().fetch();
   }
 });
