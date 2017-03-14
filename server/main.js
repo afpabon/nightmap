@@ -12,4 +12,43 @@ Meteor.startup(() => {
 
 Meteor.publish('places', function () {
   return Places.find();
-})
+});
+
+Meteor.methods({
+  addPlace : function (name, address, lat, lng, phones, notes) {
+    var newPlace = {};
+    
+    if (! lat || ! lng || ! address) {
+      return false;
+    }
+
+    if (name) {
+      newPlace.Name = name;
+    }
+
+    if (address) {
+      newPlace.Address = address;
+    }
+
+    if (lat && lng) {
+      newPlace.Gps = {
+        type : 'Feature',
+        geometry : {
+          type : 'Point',
+          coordinates : [lat, lng]
+        }
+      };
+    }
+
+    if (phones) {
+      newPlace.Phones = phones;
+    }
+
+    if (notes) {
+      newPlace.Notes = notes;
+    }
+
+    Places.insert(newPlace);
+    return true;
+  }
+});

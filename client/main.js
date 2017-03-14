@@ -8,6 +8,7 @@ this.mapsHelpers = {
   infowindow : null,
   icons : [],
   days : ['Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa', 'Do'],
+  searchMarkers : [],
 
   initialize : function () {
     var self = this;
@@ -39,6 +40,75 @@ this.mapsHelpers = {
     self.clusterer = new MarkerClusterer(GoogleMaps.maps.placesMap.instance, [], {
       maxZoom : 18
     });
+  },
+
+  addSearchBox : function (map) {
+    var self = this;
+
+    var container = document.getElementById('add-address');
+    var input = document.getElementById('pac-input');
+    var searchBox = new google.maps.places.SearchBox(input);
+    map.controls[google.maps.ControlPosition.TOP_LEFT].push(container);
+
+    google.maps.event.addListener(map, 'bounds_changed', function() {
+      var bounds = map.getBounds();
+      searchBox.setBounds(bounds);
+    });
+
+    // Listen for the event fired when the user selects a prediction and retrieve
+    // more details for that place.
+    searchBox.addListener('places_changed', function() {
+      var places = searchBox.getPlaces();
+
+      if (places.length == 0) {
+        return;
+      }
+
+      self.removeSearchMarkers();
+
+      // For each place, get the icon, name and location.
+      var bounds = new google.maps.LatLngBounds();
+      places.forEach(function(place) {
+        var icon = {
+          url: place.icon,
+          size: new google.maps.Size(71, 71),
+          origin: new google.maps.Point(0, 0),
+          anchor: new google.maps.Point(17, 34),
+          scaledSize: new google.maps.Size(25, 25)
+        };
+
+        // Create a marker for each place.
+        self.searchMarkers.push(new google.maps.Marker({
+          map: map,
+          icon: icon,
+          title: place.name,
+          position: place.geometry.location,
+          draggable : true
+        }));
+
+        if (place.geometry.viewport) {
+          // Only geocodes have viewport.
+          bounds.union(place.geometry.viewport);
+        } else {
+          bounds.extend(place.geometry.location);
+        }
+      });
+
+      if (self.searchMarkers.length > 0) {
+        $('.btn-add-place').prop('disabled', false);
+        $('.btn-cancel-place').prop('disabled', false);
+      }
+      map.fitBounds(bounds);
+    });
+  },
+
+  removeSearchMarkers : function () {
+    var self = this;
+    // Clear out the old markers.
+    self.searchMarkers.forEach(function(marker) {
+      marker.setMap(null);
+    });
+    self.searchMarkers = [];
   },
 
   setCurrentZone : function () {
@@ -151,10 +221,20 @@ this.mapsHelpers = {
 Meteor.startup(function() {
   GoogleMaps.load({
     v : '3',
-    key : 'AIzaSyCD75m_UjRrRBpFbDNcW6N3lLx6P316O1U'
+    key : 'AIzaSyCD75m_UjRrRBpFbDNcW6N3lLx6P316O1U',
+    libraries : 'places'
   });
   GoogleMaps.loadUtilityLibrary('/scripts/markerclusterer.js');
 });
+
+Template.body.rendered = function () {
+  $('.phone-tags').select2({
+    tags : true,
+    tokenSeparators: [',', ' '],
+    width : '100%',
+    placeholder : 'Teléfonos'
+  });
+}
 
 Template.body.helpers({
   placesMapOptions: function() {
@@ -167,6 +247,7 @@ Template.body.helpers({
           content: ''
         });
         mapsHelpers.initialize();
+        mapsHelpers.addSearchBox(map.instance);
         Meteor.subscribe('places', function () {
           var ts = Places.find().fetch();
           var bounds = new google.maps.LatLngBounds();
@@ -183,3 +264,37 @@ Template.body.helpers({
     }
   }
 });
+
+Template.body.events({
+  'click .btn-cancel-place' : function () {
+    mapsHelpers.removeSearchMarkers();
+    $('.btn-add-place').prop('disabled', true);
+    $('.btn-cancel-place').prop('disabled', true);    
+  },
+
+  'click .btn-save-place' : function (e, t) {
+    if (mapsHelpers.searchMarkers.length > 0) {
+      var lat = mapsHelpers.searchMarkers[0].position.lat();
+      var lng = mapsHelpers.searchMarkers[0].position.lng();
+
+      var address = $('#pac-input').val();
+      if (address.length > 0) {
+        var name = $('#placeName').val();
+        var phones = $('#placePhones').val();
+        var notes = $('#placeNotes').val();
+
+        if (name.trim() == '') {
+          name = null;
+        }
+        if (phones.length == 0) {
+          phones = null;
+        }
+        if (notes.trim() == '') {
+          notes = null;
+        }
+
+        Meteor.call('addPlace', name, address, lat, lng, phones, notes);
+      }
+    }
+  }
+})

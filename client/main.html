@@ -4,6 +4,46 @@
 </head>
 
 <body>
+  <div class="input-group" id="add-address" style="width:50%">
+    <input id="pac-input" class="form-control col-md-4" type="text" placeholder="Dirección">
+    <span class="input-group-btn">
+      <button class="btn btn-default btn-add-place" type="button" disabled data-toggle="modal" data-target="#add_place"><i class="glyphicon glyphicon-ok"></i></button>
+      <button class="btn btn-default btn-cancel-place" type="button" disabled><i class="glyphicon glyphicon-remove"></i></button>
+    </span>
+  </div>  
+  
+  <div class="modal fade" tabindex="-1" role="dialog" id="add_place">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Agregar sitio</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="placeName">Nombre</label>
+              <input type="text" class="form-control" id="placeName" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <label for="placePhones">Teléfonos</label>
+              <select multiple="true" class="form-control phone-tags" id="placePhones">
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="placeNotes">Notas</label>
+              <textarea class="form-control" rows="5" id="placeNotes"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary btn-save-place">Guardar cambios</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
   <div class="map-container">
     {{> googleMap name="placesMap" options=placesMapOptions}}
   </div>
