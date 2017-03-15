@@ -21,6 +21,7 @@ this.mapsHelpers = {
   icons : [],
   days : ['Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa', 'Do'],
   searchMarkers : [],
+  currentPlace : null,
 
   initialize : function () {
     var self = this;
@@ -180,6 +181,7 @@ this.mapsHelpers = {
       (data.Notes ? '<tr><td>Notas</td><td>'+ data.Notes + '</td></tr>' : '') +
       (workingHours != '' ? '<tr><td>Horario</td><td>'+ workingHours + '</td></tr>' : '') +
       (prices != '' ? '<tr><td>Precios</td><td>'+ prices + '</td></tr>' : '') +
+      '<tr><td>Confirmado</td><td><input type="checkbox" class="confirm-place"></input></td></tr>'
       '</table>' +
       '</div>';
 
@@ -219,6 +221,7 @@ this.mapsHelpers = {
     map.instance.fitBounds(bounds);
     marker.addListener('click', function() {
       self.updateInfoWindow(item);
+      self.currentPlace = item._id;
       self.infowindow.open(map, marker);
     });
 
@@ -293,6 +296,10 @@ Template.body.helpers({
         mapsHelpers.initialize();
         mapsHelpers.addSearchBox(map.instance);
         mapsHelpers.addFilters(map.instance);
+        mapsHelpers.infowindow.addListener('closeclick', function() {
+          mapsHelpers.currentPlace = null;
+        });
+        
         Meteor.subscribe('places', function () {
           mapsHelpers.refreshMarkers(map);
         });
@@ -353,5 +360,9 @@ Template.body.events({
 
   'click .btn-reset-types' : function (e, t) {
     $(".select-filters").val(null).trigger("change");
+  },
+
+  'change .confirm-place' : function (e, t) {
+    Meteor.call('confirmPlace', mapsHelpers.currentPlace, $(e.target).is(':checked'));
   }
 })

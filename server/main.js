@@ -52,5 +52,9 @@ Meteor.methods({
 
     Places.insert(newPlace);
     return newPlace;
+  },
+
+  confirmPlace : function (placeId, confirmed) {
+    Places.update({_id : placeId}, {$set : { Confirmed : confirmed }});
   }
 });
