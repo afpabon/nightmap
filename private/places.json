@@ -56,7 +56,7 @@
         "Prices" : [
             {
                 "Minutes" : 30,
-                "Price" : 50000
+                "Price" : 80000
             },
             {
                 "Minutes" : 45,
@@ -1472,9 +1472,6 @@
     },
     {
         "Name" : "Danubio Azul",
-        "Phones" : [
-            "3142113045"
-        ],
         "Address" : "Calle 66 # 15-05",
         "Gps" : {
             "type": "Feature",
@@ -1633,9 +1630,6 @@
     },
     {
         "Name" : "Bar Las Divas De Javier",
-        "Phones" : [
-            "3103433398"
-        ],
         "Address" : "Kra. 17 # 66-32",
         "Gps" : {
             "type": "Feature",
@@ -2142,19 +2136,6 @@
         "Confirmed" : true
     },
     {
-        "Name" : "Casa de Chicas",
-        "Address" : "Calle 72 #15-60",
-        "Gps" : {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [4.65939171, -74.06166427]
-            }
-        },
-        "Types" : [1],
-        "Confirmed" : false
-    },
-    {
         "Name" : "Desconocido",
         "Address" : "Calle 73 # 15-10 of. 201",
         "Gps" : {
@@ -2210,32 +2191,6 @@
             }
         ],
         "Types" : [1, 2, 3],
-        "Confirmed" : false
-    },
-    {
-        "Name" : "Penthouse Club",
-        "Address" : "Calle 76 # 15-34",
-        "Gps" : {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [4.6629825, -74.0593465]
-            }
-        },
-        "Types" : [1, 2, 3],
-        "Confirmed" : false
-    },
-    {
-        "Name" : "Desconocido",
-        "Address" : "Calle 76 # 15-36",
-        "Gps" : {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [4.6629912, -74.0593601]
-            }
-        },
-        "Types" : [1],
         "Confirmed" : false
     },
     {
@@ -2321,8 +2276,27 @@
                 "coordinates": [4.6588571, -74.0641248]
             }
         },
+        "WorkingHours" : [
+            {
+                "Days" : [
+                    0, 1, 2, 3, 4, 5
+                ],
+                "StartHour" : "09:00",
+                "EndHour" : "21:00"
+            }
+        ],
+        "Prices" : [
+            {
+                "Minutes" : 20,
+                "Price" : 25000
+            },
+            {
+                "Minutes" : 30,
+                "Price" : 35000
+            }
+        ],
         "Types" : [1],
-        "Confirmed" : false
+        "Confirmed" : true
     },
     {
         "Name" : "Abejitas House",

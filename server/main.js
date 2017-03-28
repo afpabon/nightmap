@@ -56,5 +56,14 @@ Meteor.methods({
 
   confirmPlace : function (placeId, confirmed) {
     Places.update({_id : placeId}, {$set : { Confirmed : confirmed }});
+  },
+
+  addNote : function (placeId, note, email) {
+    Places.update({_id : placeId}, {$push : { UserNotes : {
+      Note : note,
+      User : email,
+      Processed : false,
+      Confirmed : false
+    } }});
   }
 });

@@ -22,6 +22,7 @@ this.mapsHelpers = {
   days : ['Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa', 'Do'],
   searchMarkers : [],
   currentPlace : null,
+  userEmail : '',
 
   initialize : function () {
     var self = this;
@@ -161,10 +162,10 @@ this.mapsHelpers = {
     var prices = '';
     if (data.Prices) {
       var jointTrs = _.map(data.Prices, function (p) {
-        return '<tr><td>' + p.Minutes + ' minutes</td>' +
+        return '<tr><td>' + p.Minutes + ' minutos</td>' +
           '<td>&nbsp;$' + p.Price.formatMoney(0, ',', '.') + '</td>' +
-          (p.NotIncluded ? '<td>&nbsp;' + p.NotIncluded.join(', ') + ' not included</td>' : '') +
-          (p.Additional ? '<td>&nbsp;/&nbsp;Additional : ' + p.Additional.join(', ') + '</td>' : '') +
+          (p.NotIncluded ? '<td>&nbsp;' + p.NotIncluded.join(', ') + ' no incluídos</td>' : '') +
+          (p.Additional ? '<td>&nbsp;/&nbsp;Adicional : ' + p.Additional.join(', ') + '</td>' : '') +
           '</tr>';
       });
       if (jointTrs.length > 0) {
@@ -181,7 +182,12 @@ this.mapsHelpers = {
       (data.Notes ? '<tr><td>Notas</td><td>'+ data.Notes + '</td></tr>' : '') +
       (workingHours != '' ? '<tr><td>Horario</td><td>'+ workingHours + '</td></tr>' : '') +
       (prices != '' ? '<tr><td>Precios</td><td>'+ prices + '</td></tr>' : '') +
-      '<tr><td>Confirmado</td><td><input type="checkbox" class="confirm-place"></input></td></tr>'
+      '<tr><td>Confirmado</td><td><input type="checkbox" class="confirm-place"' + (data.Confirmed ? ' checked' : '') + '></input></td></tr>' +
+      '<tr><td><button class="btn btn-default btn-sm btn-add-note" title="Agregar nota"><span class="glyphicon glyphicon-pencil">&nbsp;</span></button></td>' +
+      '<td class="edit-note hidden"><textarea class="form-control place-note" rows="3"></textarea>' +
+      '<input type="email" class="form-control user-email" placeholder="Escriba su e-mail aquí (opcional)" value="' + self.userEmail + '"></input>' +
+      '<button class="btn btn-success btn-sm btn-save-note" title="Guardar"><span class="glyphicon glyphicon-ok">&nbsp;</span></button>' +
+      '<button class="btn btn-danger btn-sm btn-cancel-note" title="Cancelar"><span class="glyphicon glyphicon-remove">&nbsp;</span></button></td></tr>' +
       '</table>' +
       '</div>';
 
@@ -267,6 +273,10 @@ Meteor.startup(function() {
   });
   GoogleMaps.loadUtilityLibrary('/scripts/markerclusterer.js');
 });
+
+Template.body.created = function () {
+  this.UserEmail = new ReactiveVar('');
+}
 
 Template.body.rendered = function () {
   $('.phone-tags').select2({
@@ -364,5 +374,31 @@ Template.body.events({
 
   'change .confirm-place' : function (e, t) {
     Meteor.call('confirmPlace', mapsHelpers.currentPlace, $(e.target).is(':checked'));
+  },
+
+  'click .btn-add-note' : function (e,t) {
+    $('.edit-note').removeClass('hidden');
+  },
+
+  'click .btn-save-note' : function (e,t) {
+    Meteor.call('addNote', mapsHelpers.currentPlace, $('.place-note').val(), mapsHelpers.userEmail, function (err, res) {
+      if (!err) {
+        toastr.success('Nota agregada. Gracias por su información.');
+        $('.place-note').val('');
+        $('.edit-note').addClass('hidden');
+      }
+      else {
+        toastr.error('Error agregando nota. Por favor intente de nuevo.');
+      }
+    })
+  },
+
+  'click .btn-cancel-note' : function (e,t) {
+    $('.place-note').val('');
+    $('.edit-note').addClass('hidden');
+  },
+
+  'change .user-email' : function (e, t) {
+    mapsHelpers.userEmail = e.target.value;
   }
 })
