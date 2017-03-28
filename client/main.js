@@ -74,7 +74,7 @@ this.mapsHelpers = {
     var container = document.getElementById('add-address');
     var input = document.getElementById('pac-input');
     var searchBox = new google.maps.places.SearchBox(input);
-    map.controls[google.maps.ControlPosition.TOP_LEFT].push(container);
+    map.controls[google.maps.ControlPosition.LEFT_TOP].push(container);
 
     google.maps.event.addListener(map, 'bounds_changed', function() {
       var bounds = map.getBounds();
