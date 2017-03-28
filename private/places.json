@@ -2120,15 +2120,15 @@
         "Prices" : [
             {
                 "Minutes" : 20,
-                "Price" : 22000
+                "Price" : 30000
             },
             {
                 "Minutes" : 30,
-                "Price" : 32000
+                "Price" : 40000
             },
             {
                 "Minutes" : 60,
-                "Price" : 54000
+                "Price" : 80000
             }
         ],
         "Notes" : "6 chicas",
