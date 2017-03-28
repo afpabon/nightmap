@@ -16,6 +16,7 @@ Number.prototype.formatMoney = function(c, d, t){
 
 this.mapsHelpers = {
   filterTypes : null,
+  searchTerm : null,
   clusterer : null,
   infowindow : null,
   icons : [],
@@ -59,8 +60,12 @@ this.mapsHelpers = {
   addFilters : function (map) {
     var self = this;
 
-    var typeContainer = document.getElementById('type_filters');
-    map.controls[google.maps.ControlPosition.RIGHT_TOP].push(typeContainer);
+    /*var typeContainer = document.getElementById('type_filters');
+    map.controls[google.maps.ControlPosition.RIGHT_TOP].push(typeContainer);*/
+
+    var mapOptions = document.getElementById('mapOptions');
+    map.controls[google.maps.ControlPosition.RIGHT_TOP].push(mapOptions);
+    
   },
 
   addSearchBox : function (map) {
@@ -117,7 +122,6 @@ this.mapsHelpers = {
 
       if (self.searchMarkers.length > 0) {
         $('.btn-add-place').prop('disabled', false);
-        $('.btn-cancel-place').prop('disabled', false);
       }
       map.fitBounds(bounds);
     });
@@ -199,13 +203,18 @@ this.mapsHelpers = {
 
     self.clusterer.clearMarkers();
     var ts = [];
+    var filters = {};
     if (self.filterTypes) {
       var types = _.map(self.filterTypes, function (obj) { return parseInt(obj); })
-      ts = Places.find({Types: {$in : types}}).fetch();
+      filters.Types = {$in : types};
     }
-    else {
-      ts = Places.find().fetch();
+    if (self.searchTerm) {
+      filters['$or'] = [
+        { Name : { $regex : self.searchTerm, $options : 'i' } },
+        { Notes : { $regex : self.searchTerm, $options : 'i' } }
+      ];
     }
+    ts = Places.find(filters).fetch();
     var bounds = new google.maps.LatLngBounds();
     for(var i in ts){
       mapsHelpers.createMarker(bounds, map, ts[i]);
@@ -286,7 +295,9 @@ Template.body.rendered = function () {
     placeholder : 'Teléfonos'
   });
 
-  $('.select-filters').select2()
+  $('.select-filters').select2({
+    placeholder : 'Tipo de sitio'
+  })
   .on('change', function (e) {
     mapsHelpers.filterTypes = $(e.target).val();
     mapsHelpers.refreshMarkers(GoogleMaps.maps.placesMap);
@@ -326,7 +337,7 @@ Template.body.events({
   'click .btn-cancel-place' : function () {
     mapsHelpers.removeSearchMarkers();
     $('.btn-add-place').prop('disabled', true);
-    $('.btn-cancel-place').prop('disabled', true);    
+    $('#add-address').addClass('hidden');
   },
 
   'click .btn-save-place' : function (e, t) {
@@ -383,7 +394,7 @@ Template.body.events({
   'click .btn-save-note' : function (e,t) {
     Meteor.call('addNote', mapsHelpers.currentPlace, $('.place-note').val(), mapsHelpers.userEmail, function (err, res) {
       if (!err) {
-        toastr.success('Nota agregada. Gracias por su información.');
+        toastr.success('Nota enviada. Gracias por su información. Su nota será revisada y la información incluida, de ser aprobada.');
         $('.place-note').val('');
         $('.edit-note').addClass('hidden');
       }
@@ -400,5 +411,20 @@ Template.body.events({
 
   'change .user-email' : function (e, t) {
     mapsHelpers.userEmail = e.target.value;
+  },
+
+  'click .btn-add-site' : function (e, t) {
+    $('#add-address').removeClass('hidden');
+  },
+
+  'click .btn-search-sites' : function (e, t) {
+    var text = $('.btn-search-term').val();
+    if (text != '') {
+      mapsHelpers.searchTerm = text;
+    }
+    else {
+      mapsHelpers.searchTerm = null;
+    }
+    mapsHelpers.refreshMarkers(GoogleMaps.maps.placesMap);
   }
 })
